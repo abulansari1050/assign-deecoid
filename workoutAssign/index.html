@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/index.js">
+    <link rel="stylesheet" href="css/common.css">
+    <title>www.figma.com</title>
+</head>
+<body>
+    <nav>
+  
+        <div class="header">
+           
+                <!-- <i class="bi bi-list"></i> -->
+            
+            <h4>Assignment Decoid</h4>
+        </div>
+
+    </nav>
+    <script>
+        const toggleBtn=document.querySelector('.btn')
+        const toggleBtnIcon=document.querySelector('.btn i')
+        const dropDownMmenu=document.querySelector('.dropdown_menu')
+         
+        toggleBtn.onclick=function(){
+            dropDownMmenu.classList.toggle('open')
+            const isOpen= dropDownMmenu.classList.contains('open')
+            toggleBtnIcon.classList= isOpen
+            ?  'bx bx-menu'
+            : 'bi bi-x '
+        }
+    </script>
+    <div class="main_page1">
+        <div class="main">
+        <a href="signup.html">skip</a>
+         
+         <div class="content">
+            <img src="images/p2_01.jpg" alt=""><br>
+         </div>
+            <div class="content_text">
+            <h1>Track Your goal</h1><br>
+            <p>Don't worry if you have trouble determining your goals, we can help you determining your goals and track your goals</p><br>
+            <a href="index1.html"><i class="bi bi-chevron-right"></i></a>
+            </div>
+         </div>
+        </div><br><br><br><br><br><br>
+   
+</body>
+</html>
